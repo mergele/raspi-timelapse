@@ -3,7 +3,7 @@ Setup a raspberry pi for timelapse photography with a Canon EOS 50D
 
 # initial setup
 
-```
+```bash
 raspi-config
 # memory split
 # enable ssh
@@ -18,12 +18,12 @@ change password for root
 apt update && apt upgrade -y
 
 ## basic setup
-´´´
+```bash
 apt install vim-tiny mc tmux
 apt install dnsutils
 apt install postfix
 apt install alpine
-´´´
+```
 
 ### dyndns
 adduser keksdns for dyndns
