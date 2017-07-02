@@ -2,6 +2,7 @@
 Setup a raspberry pi for timelapse photography with a Canon EOS 50D
 
 # initial setup
+download and install raspbian jessie lite from https://www.raspberrypi.org/downloads/raspbian/
 
 ```bash
 raspi-config
